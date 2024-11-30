@@ -1,0 +1,9 @@
+models:
+  - name: cross-encoder
+    parameters:
+      model: cross-encoder/ms-marco-MiniLM-L-6-v2
+      type: reranker
+      backend: rerankers
+      context_size: 512
+      threads: 4
+    url: https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2

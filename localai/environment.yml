@@ -1,0 +1,9 @@
+name: localai-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip>=23.0
+  - pip:
+    - requests
