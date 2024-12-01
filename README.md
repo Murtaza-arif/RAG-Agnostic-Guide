@@ -40,6 +40,16 @@ A comprehensive guide to building Retrieval-Augmented Generation (RAG) systems u
    - Cross-platform compatibility
    - No internet required
 
+6. **OpenLit**
+   - Fast inference engine for LLMs
+   - Built on top of PyTorch with CUDA optimization
+   - Support for quantized models (4-bit, 8-bit)
+   - Efficient memory management
+   - Streaming support
+   - Easy model conversion and deployment
+   - Optimized for consumer GPUs
+   - Compatible with Hugging Face models
+
 ### RAG Orchestration & Workflows
 1. **RAGFlow**
    - End-to-end RAG pipeline orchestration
