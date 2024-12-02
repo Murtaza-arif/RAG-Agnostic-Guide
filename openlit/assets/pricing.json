@@ -1,0 +1,21 @@
+{
+ 
+  "chat": {
+      "llama-3.2": {
+          "promptPrice": 0.1,
+          "completionPrice": 0.2,
+          "contextWindow": 8192,
+          "trainingPrice": 0.0008,
+          "embeddingPrice": 0.0001,
+          "fineTuningPrice": 0.0016
+      },
+      "Ollama": {
+        "promptPrice": 0.1,
+        "completionPrice": 0.2,
+        "contextWindow": 8192,
+        "trainingPrice": 0.0008,
+        "embeddingPrice": 0.0001,
+        "fineTuningPrice": 0.0016
+    }
+}
+}

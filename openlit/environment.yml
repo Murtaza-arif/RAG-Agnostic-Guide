@@ -1,0 +1,14 @@
+name: openlit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - openlit
+    - langchain>=0.0.354
+    - langchain-community>=0.0.10
+    - prometheus-client>=0.19.0
+    - python-dotenv>=1.0.0
+    - pydantic>=2.5.2
