@@ -33,14 +33,7 @@ A comprehensive guide to building Retrieval-Augmented Generation (RAG) systems u
    - Supports multiple model architectures
    - Continuous batching
 
-5. **GPT4All**
-   - Desktop application with GUI
-   - Local chat interface
-   - Multiple model support
-   - Cross-platform compatibility
-   - No internet required
-
-6. **OpenLit**
+5. **OpenLit**
    - Fast inference engine for LLMs
    - Built on top of PyTorch with CUDA optimization
    - Support for quantized models (4-bit, 8-bit)
