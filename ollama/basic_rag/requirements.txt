@@ -1,4 +1,4 @@
-langchain==0.0.350
+langchain==0.3.9
 chromadb==0.4.22
 sentence-transformers==2.2.2
 requests==2.31.0
