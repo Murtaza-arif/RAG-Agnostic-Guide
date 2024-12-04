@@ -1,0 +1,13 @@
+name: resume-screener
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip>=23.0
+  - pip:
+    - llama-index>=0.9.8
+    - llama-hub>=0.0.62
+    - streamlit==1.29.0
+    - pypdf==3.17.1
+    - llama-index-readers-wikipedia>=0.1.1

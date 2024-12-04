@@ -108,5 +108,14 @@ A comprehensive guide to building Retrieval-Augmented Generation (RAG) systems u
    - Custom evaluation pipelines
    - [Documentation](https://docs.confident-ai.com/)
 
+## Example Projects
+
+### [Resume Screener](./resume_screener)
+A practical implementation of RAG using LlamaIndex and OpenAI to create an AI-powered resume screening application. This project demonstrates how to:
+- Process PDF documents
+- Use embeddings for document analysis
+- Create an interactive web interface with Streamlit
+- Implement practical RAG workflows
+
 ## Contributing
 We welcome contributions! Please feel free to submit a Pull Request.
