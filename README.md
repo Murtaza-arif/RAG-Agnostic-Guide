@@ -74,26 +74,6 @@ A comprehensive guide to building Retrieval-Augmented Generation (RAG) systems u
    - Supports GPU acceleration
    - Great for large-scale vector search
 
-### Text Processing & Embedding Generation
-1. **LangChain**
-   - Framework for developing LLM applications
-   - Comprehensive RAG pipelines
-   - Multiple integration options
-   - Active community
-
-2. **Llama Index (GPT Index)**
-   - Data framework for LLM applications
-   - Built-in RAG capabilities
-   - Various data connectors
-   - Structured data handling
-
-### Document Processing
-1. **PyPDF2**
-   - PDF processing
-   - Text extraction
-   - Document manipulation
-   - Lightweight and easy to use
-
 ### RAG Evaluation & Testing
 1. **RAGAS**
    - Comprehensive RAG evaluation framework

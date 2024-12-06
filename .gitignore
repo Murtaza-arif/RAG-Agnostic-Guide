@@ -60,3 +60,5 @@ logs/
 storage/
 chroma/
 faiss/
+
+*/**/*.db*
