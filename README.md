@@ -1,101 +1,83 @@
 # RAG-Agnostic-Guide
 
-A comprehensive guide to building Retrieval-Augmented Generation (RAG) systems using various open-source tools.
+A comprehensive guide and collection of examples for building production-ready Retrieval-Augmented Generation (RAG) systems using various open-source tools. This repository demonstrates different approaches to implementing RAG pipelines, from local LLM deployment to vector stores and evaluation frameworks.
 
-## Popular Open-Source Tools for RAG Systems
+## Key Features
 
-### Local LLM Tools
-1. **Ollama**
-   - Run large language models locally
-   - Easy model management and deployment
-   - Support for popular models (Llama 2, CodeLlama, Mistral)
-   - Custom model creation and fine-tuning
-   - REST API for integration
-   - GPU acceleration support
+- Multiple local LLM deployment options
+- Vector store implementations and examples
+- RAG evaluation frameworks and metrics
+- Production-ready examples
+- Comprehensive documentation for each component
 
-2. **LocalAI**
-   - Local OpenAI-compatible API
-   - Multiple model formats support
-   - CPU and GPU inference
-   - Drop-in replacement for OpenAI endpoints
+## Repository Structure
 
-3. **LMStudio**
-   - Desktop application for running LLMs
-   - User-friendly interface
-   - OpenAI-compatible API
-   - Model download and management
-   - Quantization options
+### Local LLM Solutions
+- **[Ollama](ollama/)** - Easy-to-use tool for running LLMs locally
+- **[LocalAI](localai/)** - OpenAI-compatible API for local model deployment
+- **[LMStudio](lmstudio/)** - Desktop application with user-friendly interface
+- **[vLLM](vllm_inference/)** - High-performance inference engine with PagedAttention
 
-4. **vLLM**
-   - High-throughput LLM inference
-   - PagedAttention for efficient memory usage
-   - OpenAI-compatible API
-   - Supports multiple model architectures
-   - Continuous batching
+### Vector Stores & Search
+- **[Milvus Demo](milvus_demo/)** - E-commerce semantic search implementation
+- **[OpenLit](openlit/)** - Fast inference engine with CUDA optimization
 
-5. **OpenLit**
-   - Fast inference engine for LLMs
-   - Built on top of PyTorch with CUDA optimization
-   - Support for quantized models (4-bit, 8-bit)
-   - Efficient memory management
-   - Streaming support
-   - Easy model conversion and deployment
-   - Optimized for consumer GPUs
-   - Compatible with Hugging Face models
+### RAG Components
+- **[Basic RAG](ollama/basic_rag/)** - Simple RAG implementation example
+- **[Resume Screener](resume_screener/)** - Practical RAG application for resume analysis
 
-### RAG Orchestration & Workflows
-1. **RAGFlow**
-   - End-to-end RAG pipeline orchestration
-   - Modular components
-   - Easy integration with various vector stores
+### Evaluation & Testing
+- **[RAG Evaluator](rag_evaluator/)** - Tools and metrics for RAG evaluation
+- **[DeepEval Demo](deepeval_demo/)** - Comprehensive RAG evaluation using DeepEval
 
-2. **LlamaHub**
-   - Collection of data loaders
-   - Pre-built RAG templates
-   - Community-driven integrations
-   - Easy to extend
+## Getting Started
 
-### Vector Databases
-1. **Milvus**
-   - Distributed vector database
-   - Highly scalable
-   - Supports complex vector search algorithms
-   - Good for large-scale production deployments
+Each component has its own setup instructions in its respective directory. Generally, you'll need:
 
-2. **Weaviate**
-   - Vector search engine
-   - GraphQL API
-   - Multi-modal data support
-   - Built-in vectorization modules
+### Prerequisites
+- Python 3.8+
+- Conda (recommended) or pip
+- GPU (optional, but recommended for better performance)
 
-3. **FAISS (Facebook AI Similarity Search)**
-   - Efficient similarity search library
-   - Optimized for speed and memory usage
-   - Supports GPU acceleration
-   - Great for large-scale vector search
+### General Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/RAG-Agnostic-Guide.git
+cd RAG-Agnostic-Guide
+```
 
-### RAG Evaluation & Testing
-1. **RAGAS**
-   - Comprehensive RAG evaluation framework
-   - Multiple evaluation metrics
-   - Context relevancy scoring
-   - Answer faithfulness testing
+2. Choose a component and follow its specific setup instructions in the respective README.
 
-2. **DeepEval**
-   - LLM evaluation toolkit
-   - RAG-specific metrics
-   - Automated testing
-   - Custom evaluation pipelines
-   - [Documentation](https://docs.confident-ai.com/)
+## Documentation
 
-## Example Projects
-
-### [Resume Screener](./resume_screener)
-A practical implementation of RAG using LlamaIndex and OpenAI to create an AI-powered resume screening application. This project demonstrates how to:
-- Process PDF documents
-- Use embeddings for document analysis
-- Create an interactive web interface with Streamlit
-- Implement practical RAG workflows
+Each component includes detailed documentation covering:
+- Setup instructions
+- Usage examples
+- API references
+- Performance considerations
+- Best practices
 
 ## Contributing
-We welcome contributions! Please feel free to submit a Pull Request.
+
+Contributions are welcome! Please:
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Special thanks to all the open-source projects and their maintainers that make this guide possible:
+- Ollama team
+- LocalAI community
+- LMStudio developers
+- vLLM contributors
+- Milvus community
+- And many others!
+
+For detailed information about specific components, please refer to their respective directories.
