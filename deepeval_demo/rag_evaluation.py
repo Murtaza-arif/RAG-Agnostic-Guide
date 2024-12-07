@@ -38,5 +38,5 @@ for metric in metrics:
     score = metric.measure(test_case)
     # print(f"{metric.__class__.__name__}: {'Passed' if score >= metric.threshold else 'Failed'}")
     print(f"Score: {metric.score}")
-    print(f"Score: {metric.reason}")
+    print(f"Reason: {metric.reason}")
     print("------------------")
