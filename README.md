@@ -1,5 +1,7 @@
 # RAG-Agnostic-Guide
 
+![RAG Agnostic Guide](thumbnail.webp)
+
 A comprehensive guide and collection of examples for building production-ready Retrieval-Augmented Generation (RAG) systems using various open-source tools. This repository demonstrates different approaches to implementing RAG pipelines, from local LLM deployment to vector stores and evaluation frameworks.
 
 ## Key Features
