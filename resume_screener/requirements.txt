@@ -1,6 +1,6 @@
 llama-index>=0.9.8
 llama-hub>=0.0.62
 python-dotenv==1.0.0
-streamlit==1.29.0
+streamlit==1.37.0
 pypdf==3.17.1
 llama-index-readers-wikipedia>=0.1.1
